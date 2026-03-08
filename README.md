@@ -17,3 +17,4 @@ git branch feature/main-page
 git checkout feature/main-page
 
 3. Создать от ветки develop feature/-ветки и мержить feature/-ветки в develop когда фичи будут выполнены
+git merge feature/main-page -m "Merge feature/main-page into develop"
