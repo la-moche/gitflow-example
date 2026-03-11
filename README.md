@@ -27,3 +27,8 @@ git pull origin develop
 git checkout -b release/0.1.0
 
 5. Когда ветка release/0.1.0 закончена то она мержится в develop и main и затем удаляется
+
+git checkout develop
+git merge release/0.1.0
+
+git branch -d release/0.1.0
