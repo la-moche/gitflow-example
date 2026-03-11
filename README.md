@@ -21,3 +21,9 @@ git checkout -b feature/main-page // создание с переключени�
 git merge feature/main-page -m "Merge feature/main-page into develop"
 
 git pull origin develop
+
+4. Создание ветки release/0.1.0 от develop
+
+git checkout -b release/0.1.0
+
+5. Когда ветка release/0.1.0 закончена то она мержится в develop и main и затем удаляется
