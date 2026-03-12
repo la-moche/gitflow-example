@@ -32,3 +32,6 @@ git checkout develop
 git merge release/0.1.0
 
 git branch -d release/0.1.0
+
+6. Если в ветке main обнаруживается ошибка то создается hotfix-ветка
+7. Когда работа над hotfix-веткой завершается то она мержится и в develop и в main
